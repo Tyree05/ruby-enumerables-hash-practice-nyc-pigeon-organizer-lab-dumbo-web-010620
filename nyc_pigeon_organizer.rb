@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         # if result[name] === attribute[hash][pair][name]
          result[name] = {attribute => [pair]}
           # elsif
-        binding.pry
+        # binding.pry
         # end
       }
     }
