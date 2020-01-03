@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
         end
 
         if !result[name][attribute].include?(pair)
-          result[name][attribute] << pair
+          result[name][attribute] << pair.to_s
         end
          #result[name] = {attribute => [pair]}
           # elsif
@@ -26,5 +26,5 @@ def nyc_pigeon_organizer(data)
     }
   }
 
-  p result
+  return result
 end
