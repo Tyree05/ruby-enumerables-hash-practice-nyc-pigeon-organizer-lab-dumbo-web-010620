@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
          result[name] = {attribute => [pair]}
           # elsif
         binding.pry
-        end
+        # end
       }
     }
   }
