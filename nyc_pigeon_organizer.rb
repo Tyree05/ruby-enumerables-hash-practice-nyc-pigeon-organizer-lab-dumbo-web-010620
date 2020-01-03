@@ -8,11 +8,11 @@ def nyc_pigeon_organizer(data)
         # if result has a key name has specic name add
         # if result[name] === pair[name]
         result[name] = {attribute => [pair]}
-        binding.pry
+        # binding.pry
         # end
       }
     }
   }
 
-  return result
+  p result
 end
